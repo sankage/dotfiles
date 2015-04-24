@@ -7,3 +7,5 @@
   email = godamonra@gmail.com
 [core]
   editor = atom --wait
+[credential]
+  helper = osxkeychain
