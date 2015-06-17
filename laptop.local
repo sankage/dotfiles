@@ -9,3 +9,4 @@ brew cask install atom
 brew cask install alfred
 
 brew_install_or_upgrade pick
+brew_install_or_upgrade fzf
