@@ -3,3 +3,6 @@ set relativenumber
 " Move up and down by visible lines if current line is wrapped
 nmap j gj
 nmap k gk
+
+" Add autoindent when working in markdown
+autocmd FileType markdown setlocal autoindent
