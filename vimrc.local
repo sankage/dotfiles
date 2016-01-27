@@ -6,3 +6,6 @@ nmap k gk
 
 " Add autoindent when working in markdown
 autocmd FileType markdown setlocal autoindent
+
+" Set the cursor to stay in the middle
+nnoremap <Leader>zz :let &scrolloff=999-&scrolloff<CR>
