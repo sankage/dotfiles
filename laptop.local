@@ -1,5 +1,10 @@
 #!/bin/sh
 
+brew bundle --file=- <<EOF
+brew "pick"
+brew "fzf"
+EOF
+
 fancy_echo "Cleaning up old Homebrew formulae ..."
 brew cleanup
 brew cask cleanup
