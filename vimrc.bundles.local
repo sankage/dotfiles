@@ -1,4 +1,0 @@
-Plug 'tpope/vim-commentary'
-nmap cm  <Plug>Commentary
-
-Plug 'christoomey/vim-system-copy'
