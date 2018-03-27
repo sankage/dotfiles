@@ -2,7 +2,6 @@ unsetopt auto_cd # with cdpath enabled, auto_cd gives too many false positives
 cdpath=($HOME/Dropbox/Projects $HOME/Dropbox/Projects/BKV $HOME/repositories)
 
 export PATH="$HOME/.bin:$PATH"
-eval "$(rbenv init - zsh --no-rehash)"
 
 _not_inside_tmux() { [[ -z "$TMUX" ]] }
 
@@ -13,4 +12,3 @@ ensure_tmux_is_running() {
 }
 
 ensure_tmux_is_running
-eval "$(rbenv init - --no-rehash)"
