@@ -13,3 +13,4 @@ alias grm="git status | grep deleted | awk '{\$1=\$2=\"\"; print \$0}' | \
            perl -pe 's/^[ \t]*//' | sed 's/ /\\\\ /g' | xargs git rm"
 
 alias cdp='cd $(find . -type d | pick)'
+alias rce='EDITOR="atom --wait" bin/rails credentials:edit'
