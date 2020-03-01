@@ -1,5 +1,5 @@
 unsetopt auto_cd # with cdpath enabled, auto_cd gives too many false positives
-cdpath=($HOME/Dropbox/Projects $HOME/Dropbox/Projects/BKV $HOME/repositories)
+cdpath=($HOME/repositories)
 
 export PATH="$HOME/.bin:$PATH"
 
